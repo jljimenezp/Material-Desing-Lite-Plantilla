@@ -1,0 +1,105 @@
+.logoIE{
+	text-decoration: none;
+	color: #ffffff;
+}
+.logoIE:hover{
+	color: #ccffff;
+}
+.nav-link{
+	font-weight: 700;
+}
+.nav-link:hover{
+	color: #ccffff;
+	border-bottom: solid 3px #ccffff;
+}
+.title-drawer{
+	text-decoration: none;
+}
+.cf-drawer{
+	border-right: none;
+}
+.drawer-separator{
+	height: 2px;
+	background-color: rgb(96, 125, 139);
+}
+.mdl-layout__content{
+	padding-top: 40px;
+}
+.card-content{
+	padding-top: 50px;
+	position: relative;
+}
+.demo-card-wide.mdl-card {
+  	width: 50%;
+  	margin-right: auto;
+	margin-left: auto;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 250px;
+  background: url('../img/slide.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background: #46B6AC;
+}
+.demo-card-square > .mdl-card__menu >a {
+  color: #fff;
+}
+.mdl-card__supporting-text> ul >li{
+	list-style:none;
+}
+.mdl-dialog__title{
+	text-align: center;
+}
+.main-view{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.actions-view{
+	display: inline-block;
+	width: 10%;
+	float: right;
+}
+.content-view{
+	display: inline-block;
+	width: 80%;
+	float: left;
+}
+.contact-form{
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.button-send{
+	position: relative;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.mdl-nav-horizontal{
+			display:none;
+		} 
+	.contact-form{
+			width: 400px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+	}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+	.mdl-nav-horizontal{
+			display:none;
+		} 
+	.contact-form{
+			width: 300px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+	}
